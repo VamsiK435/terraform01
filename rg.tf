@@ -3,6 +3,7 @@ resource "azurerm_resource_group" "rg" {
     location = "eastus"
     tags = {
         env = "vamsi"
+      owner = "prod"
     }
   
-}
+} 
